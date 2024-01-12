@@ -39,7 +39,8 @@ h1 {
   margin-bottom: 1.8125em;
 }
 
-.start-btn {
+/* .start-btn */
+button {
   display: inline;
   background-color: #4D5B9E;
   color: #F5F7FB;
@@ -50,8 +51,8 @@ h1 {
   cursor: pointer;
 }
 
-.start-btn:hover,
-.start-btn:focus{
+button:hover,
+button:focus{
   background-color: #252B47;
 }
 
