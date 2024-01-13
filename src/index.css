@@ -68,7 +68,7 @@ button:focus{
   align-items: start;
   padding: 10%;
   row-gap: 1em;
-  height: 100%;
+  height: auto;
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -78,9 +78,9 @@ button:focus{
   border-bottom: 0.79px solid #DBDEF0;
 }
 
-.questions:first-of-type {
-  margin-top: 140px;
-}
+/* .questions:first-of-type { */
+/*   margin-top: 140px; */
+/* } */
 
 h2 {
   font-size: 1rem;
