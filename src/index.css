@@ -75,10 +75,6 @@ button:focus{
   overflow-x: hidden;
 }
 
-.start-btn {
-  align-self: center;
-}
-
 .questions {
   border-bottom: 0.79px solid #DBDEF0;
 }
@@ -140,9 +136,5 @@ h2 {
   .answers {
     column-gap: 0.794375em;
     flex-direction: row;
-  }
-
-  .start-btn {
-    align-self: start;
   }
 }
