@@ -102,7 +102,7 @@ const scoreText = <div className="scoreComp">
   //   : scoreText 
 
     const playButton = !showAnswer ?
-    <button onClick={() => checkScore(score)}>Check answer</button>
+    <button className="start-btn" onClick={() => checkScore(score)}>Check answer</button>
     : apiError ? (
       <div className="error-message">{apiError}</div>
     ) : scoreText;
